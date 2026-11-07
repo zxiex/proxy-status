@@ -1,3 +1,5 @@
+[![Build and Release](https://github.com/zxiex/proxy-status/actions/workflows/release.yml/badge.svg)](https://github.com/zxiex/proxy-status/actions/workflows/release.yml)
+
 # ProxyStatus
 
 A minimal macOS menu bar indicator showing whether a system proxy is enabled.
@@ -36,6 +38,15 @@ make install   # copy to /Applications
 make dist      # zip the app to build/ProxyStatus.zip
 make clean
 ```
+## Installation
+
+Download the latest `ProxyStatus.zip` from
+[GitHub Releases](https://github.com/zxiex/proxy-status/releases).
+
+Unzip the archive and move `ProxyStatus.app` to `/Applications`.
+
+ProxyStatus currently ships without Developer ID signing.
+See the instructions below for opening unsigned applications.
 
 ## Install on another Mac
 
